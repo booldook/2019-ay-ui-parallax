@@ -1,11 +1,23 @@
 /* Common */
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+body {font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 1; vertical-align: bottom;}
+.fa {line-height: 0.95;}
 
 /* Header */
-
+.header {width: 100%; position: fixed; top: 0; left: 0; 
+	background-color: #fff; color: #222; z-index: 9999; 
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);}
+.nav-wrap {float: left;}
+.nav-wrap > div {float: left; padding: 12px 16px; cursor: pointer;}
+.nav-wrap > div:hover {background-color: #ccc;}
+.search-wrap {float: right;}
+.search-wrap > i {padding: 12px 16px; cursor: pointer;}
+.search-wrap > i:hover {background-color: #f11; color: #fff;}
 
 /* Main */
-
+/* background: 배경색 url(이미지경로) 반복여부 좌우위치 상하위치 */
+.main-wrap {height: 80vh; 
+	background: #0f0 url('../img/parallax1.jpg');}
 
 /* About */
 
