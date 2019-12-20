@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
 body {font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 1; vertical-align: bottom; height: 5000px;}
 .fa {line-height: 0.95;}
+.wrapper {max-width: 980px; margin: 80px auto;}
+.wrapper > h2 {}
+.wrapper > h3 {}
+.wrapper > p {}
 
 /* Header */
 .header {width: 100%; position: fixed; top: 0; left: 0; 
@@ -16,7 +20,8 @@ body {font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 1; vertic
 
 /* Main */
 .main-wrap {height: 80vh; 
-	background: url('../img/parallax1.jpg') no-repeat center top;background-size: cover; background-attachment: fixed;}
+	background: url('../img/parallax1.jpg') no-repeat center top;background-size: cover; background-attachment: fixed; position: relative;}
+.main-wrap > div {position: absolute; background-color: #333; color: #f8f8f8; padding: 16px 20px; letter-spacing: 8px; font-size: 24px; left: 50%; top: 50%; transform: translate(-50%, -50%);}
 
 /* About */
 
@@ -36,7 +41,8 @@ body {font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 1; vertic
 }
 
 @media screen and (max-width: 768px) {
-
+	.nav-wrap > div:not(:first-child) {display: none;}
+	.main-wrap span {display: none;}
 }
 
 @media screen and (max-width: 575px) {
