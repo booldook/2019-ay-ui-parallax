@@ -10,7 +10,7 @@ html, body {font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 1; 
 	font-weight: normal; margin-bottom: 1rem; font-style: italic;}
 .wrapper p {font-size: 1rem; line-height: 2rem; text-align: justify;}
 .wrapper .sub-tit {font-size: 1.125rem; text-align: center; margin-bottom: 1.5rem;}
-.common-bg {height: 35vh; background-size: cover; position: relative;}
+.common-bg {height: 35vh; position: relative;}
 .common-bg > div {color: #f8f8f8; font-size: 2rem; 
 	letter-spacing: 0.5rem; position: absolute; top: 50%; left: 50%; 
 	transform: translate(-50%, -50%);}
@@ -57,12 +57,12 @@ html, body {font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 1; 
 .prjs {background-color: #444; color: #f8f8f8; text-align: center;}
 .prjs > li {float: left; width: 25%; padding: 2rem 0;}
 .prjs .prj-tit {margin-bottom: 1rem; font-size: 1.5rem;}
-.pf-bg {background: url('../img/parallax2.jpg') no-repeat center;  background-attachment: fixed; }
+.pf-bg {background: url('../img/parallax2.jpg') no-repeat center;  background-attachment: fixed; background-size: cover;}
 .pf-imgs > li {width: 24%; margin: 0.5%; float: left;}
 
 
 /* Contact */
-.contact-bg {background: url('../img/parallax3.jpg') no-repeat center;  background-attachment: fixed; }
+.contact-bg {background: url('../img/parallax3.jpg') no-repeat center;  background-attachment: fixed;  background-size: cover;}
 
 
 /* Footer */
