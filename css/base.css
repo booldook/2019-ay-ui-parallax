@@ -344,6 +344,10 @@ img {
 .h-90 {height: 90vh;}
 .h-100 {height: 100vh;}
 
+/* 라운드 */
+.bor-r {border-radius: 0.25rem;}
+.bor-r2 {border-radius: 0.5rem;}
+.bor-r3 {border-radius: 1rem;}
 
 
 /* 버튼세트 */
