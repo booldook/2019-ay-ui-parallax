@@ -394,3 +394,9 @@ img {
 	color: #ccc
 }
 
+.opa-dark {opacity: 0.7;}
+.opa-dark:hover {opacity: 1;}
+.opa-light {opacity: 1;}
+.opa-light:hover {opacity: 0.7;}
+
+.cp {cursor: pointer;}
