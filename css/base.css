@@ -65,18 +65,23 @@ img {
 .blue-lighter {color: #a0bef7;}
 
 /* 글자 크기 */
-.t-075 {font-size: 0.75rem;}
-.t-1 {font-size: 1rem;}
-.t-125 {font-size: 1.25rem;}
-.t-15 {font-size: 1.5rem;}
-.t-175 {font-size: 1.75rem;}
-.t-2 {font-size: 2rem;}
-.t-225 {font-size: 2.25rem;}
-.t-25 {font-size: 2.5rem;}
-.t-275 {font-size: 2.75rem;}
-.t-3 {font-size: 3rem;}
-.t-4 {font-size: 4rem;}
-.t-5 {font-size: 5rem;}
+.f-075 {font-size: 0.75rem;}
+.f-1 {font-size: 1rem;}
+.f-125 {font-size: 1.25rem;}
+.f-15 {font-size: 1.5rem;}
+.f-175 {font-size: 1.75rem;}
+.f-2 {font-size: 2rem;}
+.f-225 {font-size: 2.25rem;}
+.f-25 {font-size: 2.5rem;}
+.f-275 {font-size: 2.75rem;}
+.f-3 {font-size: 3rem;}
+.f-4 {font-size: 4rem;}
+.f-5 {font-size: 5rem;}
+
+/* 글씨 두께 */
+.fw {font-weight: bold;}
+.fn {font-weight: normal;}
+.fi {font-style: italic;}
 
 
 /* 패딩 */
