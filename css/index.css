@@ -1,8 +1,8 @@
 /* Common */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
-body {font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 1; vertical-align: bottom; height: 5000px;}
+html, body {font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 1; vertical-align: bottom; height: 5000px;}
 .fa {line-height: 0.95;}
-.wrapper {max-width: 980px; margin: 80px auto;}
+.wrapper {max-width: 980px; margin: 5rem auto;}
 .wrapper > h2 {}
 .wrapper > h3 {}
 .wrapper > p {}
@@ -10,18 +10,18 @@ body {font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 1; vertic
 /* Header */
 .header {width: 100%; position: fixed; top: 0; left: 0; 
 	background-color: #fff; color: #222; z-index: 9999; 
-	box-shadow: 0 0 10px rgba(0,0,0,0.3);}
+	box-shadow: 0 0 10px rgba(0,0,0,0.3); }
 .nav-wrap {float: left;}
-.nav-wrap > div {float: left; padding: 12px 16px; cursor: pointer;}
+.nav-wrap > div {float: left; padding: 0.75rem 1rem; cursor: pointer;}
 .nav-wrap > div:hover {background-color: #ccc;}
 .search-wrap {float: right;}
-.search-wrap > i {padding: 12px 16px; cursor: pointer;}
+.search-wrap > i {padding: 0.75rem 1rem; cursor: pointer;}
 .search-wrap > i:hover {background-color: #f11; color: #fff;}
 
 /* Main */
 .main-wrap {height: 80vh; 
 	background: url('../img/parallax1.jpg') no-repeat center top;background-size: cover; background-attachment: fixed; position: relative;}
-.main-wrap > div {position: absolute; background-color: #333; color: #f8f8f8; padding: 16px 20px; letter-spacing: 8px; font-size: 24px; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+.main-wrap > div {position: absolute; background-color: #333; color: #f8f8f8; padding: 1rem 1.25rem; letter-spacing: 0.5rem; font-size: 1.5rem; left: 50%; top: 50%; transform: translate(-50%, -50%);}
 
 /* About */
 

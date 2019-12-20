@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>css 단위들</title>
+	<link rel="stylesheet" href="./css/base.css">
+	<style>
+	html, body {font-size: 16px;}
+	.txts {font-size: 3rem;}
+	.txt {border: 1px solid red;}
+	.txt1 {font-size: 32px;}
+	.txt2 {font-size: 2rem; padding: 1rem;}
+	.txt3 {font-size: 1em; padding: 1em; line-height: 1;}
+	/* font-size로는 %를 쓰지 않는다. rem or em을 쓴다. */
+	.txt4 {font-size: 200%; padding: 3%;}
+	.txt5 {font-size: 3vw;}
+	.txt6 {font-size: 3vh;}
+	@media screen and (max-width: 768px) {
+		html, body {font-size: 14px;}
+	}
+	@media screen and (max-width: 575px) {
+		html, body {font-size: 12px;}
+	}
+	</style>
+</head>
+<body>
+	<div class="txts">
+		<div class="txt txt1">가나다라-32px</div>
+		<div class="txt txt2">마바사아-2rem</div>
+		<div class="txt txt3">자차카타-2em</div>
+		<div class="txt txt4">파하-200%</div>
+		<div class="txt txt5">가나다라-3vw</div>
+		<div class="txt txt6">마바사아-3vh</div>
+	</div>
+</body>
+</html>
