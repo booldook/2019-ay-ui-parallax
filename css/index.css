@@ -34,6 +34,20 @@ html, body {font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 1; 
 .about-lt > h4 > .fa-user {margin-right: 1rem;}
 .about-rt {width: 50%; float: right; padding: 0 3%;}
 
+.about-graphs {}
+.about-graphs > li {}
+.about-graphs .graph-tit {letter-spacing: 0.5rem; 
+	font-size: 1.25rem; padding: 2rem 0 1.5rem 0;}
+.about-graphs .fa {margin-right: 1rem;}
+.graph-bars {background-color: #ddd;}
+.graph-bar {background-color: #444; text-align: center; 
+	color: #f8f8f8; font-size: 1.25rem; padding: 0.75rem 0;}
+/*
+.about-graphs > li:nth-child(1) .graph-bar {width: 90%;}
+.about-graphs > li:nth-child(2) .graph-bar {width: 85%;}
+.about-graphs > li:nth-child(3) .graph-bar {width: 75%;}
+*/
+
 /* Portfolio */
 
 
