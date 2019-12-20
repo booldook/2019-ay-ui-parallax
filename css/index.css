@@ -6,7 +6,7 @@ html, body {font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 1; 
 	padding: 0 1rem;}
 .wrapper > h2 {font-size: 2rem; text-align: center; 
 	font-weight: normal; margin-bottom: 1.5rem;}
-.wrapper > h3 {font-size: 1rem; text-align: center; 
+.wrapper > h3 {font-size: 1rem; text-align: center; line-height: 2rem;
 	font-weight: normal; margin-bottom: 1rem; font-style: italic;}
 .wrapper p {font-size: 1rem; line-height: 2rem; text-align: justify;}
 .wrapper .sub-tit {font-size: 1.125rem; text-align: center; margin-bottom: 1.5rem;}
@@ -48,7 +48,18 @@ html, body {font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 1; 
 */
 
 /* Portfolio */
+.prjs {background-color: #444; color: #f8f8f8; text-align: center;}
+.prjs > li {float: left; width: 25%; padding: 2rem 0;}
+.prjs .prj-tit {margin-bottom: 1rem; font-size: 1.5rem;}
 
+.pf-bg {height: 35vh; 
+	background: url('../img/parallax2.jpg') no-repeat center;
+	background-size: cover; background-attachment: fixed; 
+	position: relative;}
+.pf-bg > div {color: #f8f8f8; font-size: 2rem; letter-spacing: 0.5rem;
+	position: absolute; top: 50%; left: 50%; 
+	transform: translate(-50%, -50%);}
+.pf-imgs > li {width: 24%; margin: 0.5%; float: left;}
 
 /* Contact */
 
@@ -66,8 +77,9 @@ html, body {font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 1; 
 	.main-wrap span {display: none;}
 	.about-lt {width: 100%;}
 	.about-rt {display: none;}
+	.pf-imgs > li {width: 48%; margin: 1%;}
 }
 
 @media screen and (max-width: 575px) {
-
+	.pf-imgs > li {width: 96%; margin: 2%;}
 }
