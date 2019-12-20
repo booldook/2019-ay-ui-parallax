@@ -345,9 +345,28 @@ img {
 .h-100 {height: 100vh;}
 
 /* 라운드 */
-.bor-r {border-radius: 0.25rem;}
-.bor-r2 {border-radius: 0.5rem;}
-.bor-r3 {border-radius: 1rem;}
+.b-r {border-radius: 0.25rem;}
+.b-r2 {border-radius: 0.5rem;}
+.b-r3 {border-radius: 1rem;}
+
+/* 보더 */
+.b-black {border: 1px solid #222}
+.b-darker {border: 1px solid #444}
+.b-dark {border: 1px solid #666}
+.b-grey {border: 1px solid #888}
+.b-light {border: 1px solid #aaa}
+.b-lighter {border: 1px solid #ccc}
+.b-white {border: 1px solid #eee}
+
+.bb-black {border-bottom: 1px solid #222}
+.bb-darker {border-bottom: 1px solid #444}
+.bb-dark {border-bottom: 1px solid #666}
+.bb-grey {border-bottom: 1px solid #888}
+.bb-light {border-bottom: 1px solid #aaa}
+.bb-lighter {border-bottom: 1px solid #ccc}
+.bb-white {border-bottom: 1px solid #eee}
+
+.b-none {border: none;}
 
 
 /* 버튼세트 */
