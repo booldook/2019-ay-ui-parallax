@@ -1,6 +1,6 @@
 /* Common */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
-body {font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 1; vertical-align: bottom;}
+body {font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 1; vertical-align: bottom; height: 5000px;}
 .fa {line-height: 0.95;}
 
 /* Header */
@@ -15,9 +15,8 @@ body {font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 1; vertic
 .search-wrap > i:hover {background-color: #f11; color: #fff;}
 
 /* Main */
-/* background: 배경색 url(이미지경로) 반복여부 좌우위치 상하위치 */
 .main-wrap {height: 80vh; 
-	background: #0f0 url('../img/parallax1.jpg');}
+	background: url('../img/parallax1.jpg') no-repeat center top;background-size: cover; background-attachment: fixed;}
 
 /* About */
 

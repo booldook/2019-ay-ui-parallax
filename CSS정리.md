@@ -58,6 +58,19 @@ text-align: center; /* left, right, center, justify */
 
 /* 배경 */
 background-color: red; 
+/* 이미지배경
+background: 
+배경색 
+url(이미지경로) 
+반복여부(repeat repeat-x repeat-y no-repeat) 
+좌우위치(left right center 10px 30px -100px -50%) 
+상하위치(top center bottom 10px 30px -100px -50%)  
+background-size: 100% auto, auto 100%, cover
+*/
+background: url('../img/parallax1.jpg') no-repeat center top;
+background-size: cover;
+background-attachment: fixed; /* 백그라운드를 고정시켜 parallax효과를 준다. */
+
 
 /* 테두리와 관련된 속성 */
 border: 1px solid red;
