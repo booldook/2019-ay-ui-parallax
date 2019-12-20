@@ -2,10 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
 html, body {font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 1; vertical-align: bottom; height: 5000px;}
 .fa {line-height: 0.95;}
-.wrapper {max-width: 980px; margin: 5rem auto;}
-.wrapper > h2 {}
-.wrapper > h3 {}
-.wrapper > p {}
+.wrapper {max-width: 980px; margin: 5rem auto; color: #777;}
+.wrapper > h2 {font-size: 2rem; text-align: center; 
+	font-weight: normal; margin-bottom: 1.5rem;}
+.wrapper > h3 {font-size: 1rem; text-align: center; 
+	font-weight: normal; margin-bottom: 1rem; font-style: italic;}
+.wrapper p {font-size: 1rem; line-height: 2rem;}
 
 /* Header */
 .header {width: 100%; position: fixed; top: 0; left: 0; 
